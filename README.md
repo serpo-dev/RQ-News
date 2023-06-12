@@ -1,6 +1,7 @@
 # REACT-QUERY-NEWSLIST
 
-This is a simple project that I created because I wanted to explore react-query library in React
+This is a simple project that I created because I wanted to explore react-query library in React.
+
 Uses API of https://newsapi.org/
 
 ### Preview
