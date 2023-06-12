@@ -25,9 +25,10 @@ npm run start
 ### .env configuration
 
 ```
-REACT_APP_PAGE_SIZE=
+REACT_APP_PAGE_SIZE=25
 
 // get it from https://newsapi.org/
+// example: "56da3fhb693945e086269s5f322fe572"
 // free account limits: 50 reqs per 12 h
-TOKEN=
+REACT_APP_API_TOKEN=
 ```
