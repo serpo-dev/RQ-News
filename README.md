@@ -1,13 +1,13 @@
-# react-query-newslist
+# REACT-QUERY-NEWSLIST
 
-A simple project sourced from my desire to explore RTQuery in React.
+This is a simple project that I created because I wanted to explore react-query library in React
 Uses API of https://newsapi.org/
 
-## Preview
+### Preview
 
-![Interaction](https://raw.githubusercontent.com/yphwd/react-query-newslist/master/assets/preview.gif)
+<img src="https://github.com/yphwd/react-query-newslist/blob/master/src/assets/preview.gif" alt="Preview" style="height: 600px"></img>
 
-## Usage
+### Usage
 
 1. Install the node packages:
 ```
@@ -21,7 +21,7 @@ npm install
 npm run start
 ```
 
-#### .env configuration
+### .env configuration
 
 ```
 REACT_APP_PAGE_SIZE=
