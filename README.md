@@ -6,15 +6,20 @@ Uses an API of the https://newsapi.org/
 
 ### Live Demo 🔴
 
+
 - You can check it out by following <b><a href="https://serpo-dev.github.io/rq-news" target="_blank">this link</a></b> 🔗 :
 
 `https://serpo-dev.github.io/rq-news/`
 
-### Demo Pic
+❗ In live demo the news list is not fetching, because the API blocks non-localhost requests. For trying the full mode you need to clone this repo and run it as a dev server on your local machine.
 
-<img src="src/assets/preview.gif" alt="Preview" style="height: 300px"></img>
+<img src="src/assets/localhostError.jpg" alt="Non-Localhost Error"></img>
 
-### Usage
+### Demo Pic 🖥️
+
+<img src="src/assets/preview.gif" alt="Preview" style="height: 450px"></img>
+
+### Usage 📙
 
 1. Install the node packages:
 ```
