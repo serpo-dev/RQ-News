@@ -16,8 +16,6 @@ export function Pagination() {
 
             let i = left - 1;
 
-            console.log(right, left);
-
             return Array(right - left)
                 .fill(0)
                 .map(() => {

@@ -3,22 +3,25 @@ export function Header() {
         <div className="container d-flex flex-column align-items-center">
             <h1 className="font-weight-bold text-uppercase mt-5">
                 <a
-                    href="/"
+                    href={
+                        window.location.href.includes("github.io")
+                            ? "/rq-news"
+                            : "/"
+                    }
                     className="text-decoration-none"
                 >
-                    react-query-newslist
+                    rq-news
                 </a>
             </h1>
             <h6 className="mt-3">
                 Created by{" "}
                 <a
-                    href="https://github.com/yphwd"
+                    href="https://github.com/serpo-dev"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    lav2u
+                    serpo-dev
                 </a>
-                <i> (aka yphwd)</i>.
             </h6>
             <h6 className="mb-5">
                 Search powered by{" "}

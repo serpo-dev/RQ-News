@@ -1,12 +1,18 @@
-# REACT-QUERY-NEWSLIST
+# RQ-NEWS 📰
 
-This is a simple project that I created because I wanted to explore react-query library in React.
+Displays world news and caches them by pages until new data is fetched usding the React Query library.
 
-Uses API of https://newsapi.org/
+Uses an API of the https://newsapi.org/
 
-### Preview
+### Live Demo 🔴
 
-<img src="https://github.com/yphwd/react-query-newslist/blob/master/src/assets/preview.gif" alt="Preview" style="height: 600px"></img>
+- You can check it out by following <b><a href="https://serpo-dev.github.io/rq-news" target="_blank">this link</a></b> 🔗 :
+
+`https://serpo-dev.github.io/rq-news/`
+
+### Demo Pic
+
+<img src="src/assets/preview.gif" alt="Preview" style="height: 300px"></img>
 
 ### Usage
 
@@ -25,10 +31,9 @@ npm run start
 ### .env configuration
 
 ```
-REACT_APP_PAGE_SIZE=25
+REACT_APP_PAGE_SIZE=
 
 // get it from https://newsapi.org/
-// example: "56da3fhb693945e086269s5f322fe572"
 // free account limits: 50 reqs per 12 h
-REACT_APP_API_TOKEN=
+TOKEN=
 ```

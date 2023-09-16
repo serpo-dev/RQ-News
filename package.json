@@ -1,7 +1,8 @@
 {
-    "name": "react-query-newslist",
+    "name": "rq-news",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://serpo-dev.github.io/rq-news/",
     "dependencies": {
         "@tanstack/react-query": "^4.29.12",
         "@testing-library/jest-dom": "^5.16.5",
@@ -19,6 +20,7 @@
         "typescript": "^4.9.5"
     },
     "scripts": {
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test"
@@ -40,5 +42,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
     }
 }
