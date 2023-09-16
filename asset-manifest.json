@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rq-news/static/css/main.0e6d146e.css",
+    "main.js": "/rq-news/static/js/main.c28b5f05.js",
+    "index.html": "/rq-news/index.html",
+    "main.0e6d146e.css.map": "/rq-news/static/css/main.0e6d146e.css.map",
+    "main.c28b5f05.js.map": "/rq-news/static/js/main.c28b5f05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e6d146e.css",
+    "static/js/main.c28b5f05.js"
+  ]
+}
